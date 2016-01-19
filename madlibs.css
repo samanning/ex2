@@ -1,0 +1,197 @@
+/*== CSS ==*/
+
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+@import url(https://fonts.googleapis.com/css?family=Oswald);
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+
+/*== typography & color ==*/
+
+h1 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 90px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    line-height: 110px;
+    color: #ffffff;
+}
+
+h2 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: #ED1C24;
+}
+
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    color: #9B9B9B;
+    padding: 24px;
+    background-color: #000000;
+}
+
+form input[type="submit"],
+form input[type="reset"] {
+    text-transform: uppercase;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    color: #ffffff;
+}
+
+strong {
+    color: #ED1C24;
+}
+
+
+/*== positioning ==*/
+
+body {
+    margin-right: 40px;
+    margin-left: 20px;
+}
+
+h1,
+h2 {
+    margin-left: 70px;
+}
+
+img {
+    margin-left: 20px;
+}
+
+p {
+    width: 85%;
+    padding-bottom: 15px;
+}
+
+.fullWidth {
+    width: 100%;
+}
+
+#buttons .submitButton {
+    padding-right: 50px;
+    padding-left: 50px;
+    margin-bottom: 100px;
+    margin-top: 25px;
+}
+
+#buttons .resetButton {
+    padding-right: 33px;
+    padding-left: 33px;
+}
+
+#buttons {
+    margin: auto;
+    width: 65%;
+}
+
+#userInput {
+    padding-top: 80px;
+}
+
+
+/*== form ==*/
+
+form input {
+    margin: 10px 10px;
+    padding: 10px;
+    background-color: #1B1B1B;
+    color: #9B9B9B;
+    font-size: 12px;
+    font-family: 'Source Sans Pro', sans-serif;
+    border: none;
+}
+
+form input[type="submit"],
+form input[type="reset"] {
+    opacity: 0.75;
+    background-color: #ED1C24;
+    border-radius: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+form input[type="submit"]:hover,
+form input[type="reset"]:hover {
+    background-color: #ED1C24;
+    opacity: 1.0;
+}
+
+form .inputBox {
+    padding-right: 100px;
+}
+
+
+/*== extras ==*/
+
+.speechBubble {
+    position: relative;
+    width: 500px;
+    height: 120px;
+    padding-left: 30px;
+    padding-top: 20px;
+    background: #E7E7E7;
+    border-radius: 10px;
+}
+
+.speechBubble:after {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 15px 50px 15px 0;
+    border-color: transparent #E7E7E7;
+    display: block;
+    width: 0;
+    z-index: 1;
+    left: -50px;
+    top: 45px;
+}
+
+
+/*== visibility ==*/
+
+.hide {
+    visibility: hidden;
+}
+
+.show {
+    visibility: visible;
+}
+
+
+/*== grid ==*/
+
+* {
+    box-sizing: border-box;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.one-whole {
+    width: 100%;
+}
+
+.one-half {
+    width: 50%;
+}
+
+.one-third {
+    width: 33%;
+}
+
+.column {
+    float: left;
+}
+
+.container {
+    width: 955px;
+    margin: auto;
+}
