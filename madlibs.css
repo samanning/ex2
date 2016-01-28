@@ -173,6 +173,9 @@ form .inputBox {
     visibility: visible;
 }
 
+h6 {
+    visibility: hidden;
+}
 
 /*== grid ==*/
 
