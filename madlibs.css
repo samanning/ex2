@@ -101,6 +101,9 @@ p {
     padding-top: 80px;
 }
 
+footer a{
+    margin-top: 50px;
+}
 
 /*== form ==*/
 
@@ -210,7 +213,15 @@ footer a:hover{
     color: #ED1C24;
 }
 
+/*== validation ==*/
 
+#valid li {
+    list-style-type: none;
+    display: inline;
+    font-size:10px;
+}
 
-
+#valid {
+    float: right;
+}
 
